@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DemoLayoutsOptions"
+             x:Class="DemoLayoutsOptions.MainPage">
+
+    <!--<StackLayout Orientation="Horizontal" >
+        <Button Text="Start"
+                VerticalOptions="Start"></Button>
+        <Button Text="Center"
+                VerticalOptions="Center"></Button>
+        <Button Text="End"
+                VerticalOptions="End"></Button>
+        <Button Text="End"
+                ></Button>
+    </StackLayout>-->
+    <!--<StackLayout Orientation="Horizontal" >
+        <Button Text="Start"
+                VerticalOptions="Start"></Button>
+        <Button Text="Center"
+                VerticalOptions="Center"></Button>
+        <Button Text="End"
+                VerticalOptions="End"></Button>
+        <Button Text="End"
+                ></Button>
+    </StackLayout>-->
+    <!--<StackLayout >
+        <BoxView Color="Aqua"
+                 HeightRequest="1"/>
+        <Button Text="Start"
+                VerticalOptions="StartAndExpand"
+                HorizontalOptions="Start"></Button>
+        <BoxView Color="Aqua"
+                 HeightRequest="1"/>
+        <Button Text="Center"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"></Button>
+        <BoxView Color="Aqua"
+                 HeightRequest="1"/>
+        <Button Text="End"
+                HorizontalOptions="End"
+                VerticalOptions="EndAndExpand"/>
+        <BoxView Color="Aqua"
+                 HeightRequest="1"/>
+
+        <Button Text="Fill"
+                VerticalOptions="FillAndExpand"
+                ></Button>
+        </StackLayout>-->
+    <!--<StackLayout BackgroundColor="Aqua">
+        <StackLayout BackgroundColor="Blue"
+                     Margin="30,100,100,10">
+            <Image Source="githubDesktop.png"
+                  ></Image>
+        </StackLayout>
+        <StackLayout BackgroundColor="BlueViolet"
+                     Padding="100">
+            <Image Source="githubDesktop.png"></Image>
+        </StackLayout>
+        
+    </StackLayout>-->
+    <!--<StackLayout Spacing="0">
+        <BoxView Color="Aquamarine"
+                 VerticalOptions="FillAndExpand"/>
+        <BoxView Color="Blue"
+                 VerticalOptions="FillAndExpand"/>
+        <BoxView Color="BlueViolet"
+                 VerticalOptions="FillAndExpand"/>
+        <BoxView Color="Maroon"
+                 VerticalOptions="FillAndExpand"/>
+    </StackLayout>-->
+    <StackLayout Spacing="0" Orientation="Horizontal">
+        <BoxView Color="Aquamarine"
+                 HorizontalOptions="FillAndExpand"
+                 />
+        <BoxView Color="{StaticResource PrimaryColor}"
+                 HorizontalOptions="FillAndExpand"/>
+        <BoxView Color="CadetBlue"
+                 HorizontalOptions="FillAndExpand"/>
+        <BoxView Color="Maroon"
+                  HorizontalOptions="FillAndExpand"
+                 
+                 />
+    </StackLayout>
+
+</ContentPage>
